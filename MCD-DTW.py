@@ -7,10 +7,6 @@ import os
 from fastdtw import fastdtw
 import soundfile
 
-def changeWav(filename):
-    data, samplerate = soundfile.read(filename)
-    soundfile.write(filename, data, 44100, subtype='PCM_16')
-
 def readmgc(filename):
     # all parameters can adjust by yourself :)
     try:
