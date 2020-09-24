@@ -1,6 +1,6 @@
 # python-MCD
 
- 
+ Thanks to ttsl, original repo: https://github.com/ttslr/python-MCD
 This package computes mel cepstral distortions (MCD) in python. MCD are used in assessing the quality of synthesized speech.
 
 
